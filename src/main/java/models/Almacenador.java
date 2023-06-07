@@ -29,4 +29,8 @@ public class Almacenador<T> {
             throw new IndexOutOfBoundsException("Posición inválida");
         }
     }
+
+    public List<T> getElementos() {
+        return elementos;
+    }
 }
